@@ -38,7 +38,7 @@ public:
 };
 
 int main() {
-    cout << "from vertex -> (to vertex, weight)";
+    cout << "from vertex -> (to vertex, weight)" << endl;
     Graph graph(4);
 
     graph.add_edge({3,1},true,9);
