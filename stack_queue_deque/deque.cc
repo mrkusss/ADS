@@ -1,3 +1,7 @@
+/*
+    Deque (double-ended queue) is a data structure that allows insertion and deletion
+at both ends and is used in task scheduling, sliding window problems, and cache implementations.
+*/
 #include <iostream>
 using namespace std;
 

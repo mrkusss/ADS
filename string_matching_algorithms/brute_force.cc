@@ -1,3 +1,7 @@
+/*
+        Brute force string matching checks for a pattern by comparing it
+with every possible position in the text and is simple but inefficient for large texts.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

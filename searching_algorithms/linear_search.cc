@@ -1,3 +1,8 @@
+/*
+  Linear search checks each element of a list one by one 
+until the target is found and works on unsorted or small datasets.
+  It is used in simple searches where speed is not critical.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

@@ -1,3 +1,7 @@
+/*
+Queue is a first-in, first-out (FIFO) structure where elements are added at the rear and removed from the front,
+                used in task scheduling, print spooling, and breadth-first search.
+*/
 #include <iostream>
 using namespace std;
 

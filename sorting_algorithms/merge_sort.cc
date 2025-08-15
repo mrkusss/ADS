@@ -1,3 +1,8 @@
+/*
+Merge sort is a divide-and-conquer algorithm that recursively splits an array into halves,
+                sorts them, and then merges the sorted halves.
+    It is commonly used in large datasets and applications requiring stable sorting.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
