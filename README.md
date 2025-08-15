@@ -13,14 +13,14 @@ To run the code, you need to have a C++ compiler installed on your computer, suc
 #### Using Clang:
 
 ```bash
-clang++ name_of_file.cpp -o name_of_file
+clang++ name_of_file.cpp/cc -o name_of_file
 ./name_of_file
 ```
 
 #### Using GCC:
 
 ```bash
-g++ name_of_file.cpp -o name_of_file
+g++ name_of_file.cpp/cc -o name_of_file
 ./name_of_file
 ```
 
