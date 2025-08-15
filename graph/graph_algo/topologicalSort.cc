@@ -1,3 +1,8 @@
+/*
+    Topological sort is used to linearly order the nodes of a directed acyclic graph (DAG) 
+                such that for every directed edge u → v, u comes before v. 
+It’s used in task scheduling, build systems, course prerequisite planning, and dependency resolution.
+*/
 #include <iostream>
 #include <vector>
 #include <utility>

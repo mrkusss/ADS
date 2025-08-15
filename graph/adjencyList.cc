@@ -1,3 +1,7 @@
+/*
+An adjacency list represents a graph as an array or list of lists, where each node stores a list of its neighbors.
+        It’s efficient for sparse graphs, using less memory and allowing easy iteration over neighbors.
+*/
 #include <iostream>
 #include <utility>
 #include <vector>
