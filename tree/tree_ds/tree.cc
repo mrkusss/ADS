@@ -1,3 +1,16 @@
+/*
+A tree is a widely used hierarchical data structure that models relationships similar to a family tree or organizational chart. 
+                    It consists of nodes connected by edges, with one special node called the root. 
+                Each node can have zero or more child nodes, and nodes with no children are called leaves.
+
+Key Features of a Tree:
+
+    -> Root: The topmost node of the tree.
+    -> Parent and Child: If a node A connects to node B below it, A is B’s parent, and B is A’s child.
+    -> Leaf: A node with no children.
+    -> Edge: Connection between two nodes.
+    -> Height/Depth: The number of edges on the longest path from the root to a leaf.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

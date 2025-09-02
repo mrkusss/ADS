@@ -1,3 +1,12 @@
+/*
+This C++ program finds the centroid of a tree.
+
+    -> A tree is an acyclic connected graph.
+
+    -> The centroid of a tree is a node that, if removed, leaves all remaining connected components with at most n/2 nodes.
+
+    -> Essentially, it’s a node that “balances” the tree.
+*/
 #include <iostream>
 #include <vector>
 

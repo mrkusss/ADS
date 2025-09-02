@@ -1,3 +1,26 @@
+/*
+A traversal is a systematic way of visiting all the nodes (or elements) of a data structure, 
+    like a tree or graph, exactly once, so you can perform some operation on each node
+
+Preorder Traversal:
+    How it works:
+        -> Step 1: Visit the current node → record its value.
+        -> Step 2: Recursively visit all children in the order they appear.
+    Order: Root → Children (left to right)
+
+Postorder Traversal:
+    How it works
+        -> Step 1: Recursively visit all children first.
+        -> Step 2: Visit the current node after its children.
+    Order: Children → Root
+
+Breadth-First Traversal (Level-Order):
+    How it works:
+        -> Step 1: Start from the root and add it to a queue.
+        -> Step 2: Repeatedly remove the front node from the queue, visit it, and enqueue all its children.
+        -> Step 3: Continue until the queue is empty.
+    Order: Level by level, left to right per level.
+*/
 #include <iostream>
 #include <vector>
 #include <queue>
