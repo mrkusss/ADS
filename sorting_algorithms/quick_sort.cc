@@ -1,3 +1,8 @@
+/*
+    Quick sort is a divide-and-conquer algorithm that selects a pivot, 
+    partitions the array around it, and recursively sorts the partitions.
+It is widely used in high-performance sorting tasks due to its average-case efficiency.
+*/
 #include <iostream>
 #include <vector>
 #include <utility>

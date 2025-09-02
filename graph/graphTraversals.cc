@@ -1,3 +1,13 @@
+/*
+                                Breadth-First Search (BFS)
+BFS explores a graph level by level starting from a source node, using a queue to track nodes.
+ It’s used in shortest path in unweighted graphs, social network analysis, and web crawling.
+
+                            Depth-First Search (DFS)
+DFS explores a graph by going as deep as possible along each branch before backtracking,
+                usually implemented with recursion or a stack.
+    It’s used in cycle detection, topological sorting, and solving puzzles or mazes.
+*/
 #include <iostream>
 #include <unordered_set>
 #include <utility>

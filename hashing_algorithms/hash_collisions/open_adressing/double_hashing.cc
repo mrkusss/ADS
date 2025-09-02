@@ -1,3 +1,10 @@
+/*
+Open addressing handles hash collisions by finding another empty slot in the hash table itself.
+        Techniques include linear probing, quadratic probing, and double hashing,
+                     and it’s used in memory-efficient hash tables.
+
+        Double Hashing -> uses a second hash function to determine the step size for probing.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

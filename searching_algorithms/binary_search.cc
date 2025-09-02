@@ -1,3 +1,8 @@
+/*
+        Binary search is an efficient algorithm (O(log n)) for finding a target value in a sorted array
+                    by repeatedly dividing the search interval in half.
+It is commonly used in search engines, database indexing, and any application requiring fast lookups in sorted data.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

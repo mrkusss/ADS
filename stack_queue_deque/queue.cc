@@ -1,3 +1,7 @@
+/*
+Stack is a last-in, first-out (LIFO) structure where elements are added and removed from the top,
+     commonly used in function calls, undo features, and expression evaluation.
+*/
 #include <iostream>
 using namespace std;
 
