@@ -1,3 +1,34 @@
+/*
+A binary tree is a data structure made up of nodes, where each node contains:
+
+    -> A data element
+    -> A left child pointer (can be nullptr)
+    -> A right child pointer (can be nullptr)
+
+Key properties:
+    -> Each node has at most two children — left and right.
+    -> The root node is the top-most node in the tree.
+    -> A node without children is called a leaf.
+
+Binary trees are used because they allow efficient hierarchical storage and retrieval of data.
+Some common use cases:
+
+Searching and Sorting
+    -> Binary Search Trees (BSTs) allow fast search, insert, and delete operations.
+    -> Time complexity: O(log n) on average.
+
+Hierarchical Data
+    -> Represent file systems, organization charts, or game trees.
+
+Expression Trees
+    -> Represent arithmetic expressions where leaves are operands and internal nodes are operators.
+
+Pathfinding & Traversals
+    -> Algorithms like DFS, BFS, preorder, inorder, and postorder traversal use binary trees.
+
+Priority Structures
+    -> Heaps are specialized binary trees (min-heap, max-heap).
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

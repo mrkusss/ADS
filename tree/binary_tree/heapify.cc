@@ -1,3 +1,28 @@
+/*
+        Heapify is the process of restoring the heap property in a binary heap.
+In a MinHeap, the heap property means that every parent node is less than or equal to its children.
+In a MaxHeap, the property is the opposite: every parent node is greater than or equal to its children.
+
+If the heap property is violated (for example, after inserting or removing an element), we use heapify to fix it.
+
+Types of heapify:
+
+Heapify Up (a.k.a. Bubble Up or Sift Up)
+
+-> Used when we insert a new element into the heap.
+-> The new element is placed at the end of the array (the bottom of the tree).
+-> If it violates the heap property (e.g., smaller than its parent in MinHeap), we swap it with the parent.
+-> This process continues until the heap property is restored or the element reaches the root.
+
+Heapify Down (a.k.a. Bubble Down or Sift Down)
+
+-> Used when we remove the root element (usually the min or max).
+-> The last element in the array is moved to the root.
+-> If it violates the heap property (e.g., larger than a child in MinHeap), we swap it with the smaller child.
+-> This process continues until the element is in the correct position or becomes a leaf.
+
+There is implemented Heapify Down
+*/
 #include <iostream>
 #include <vector>
 #include <string>

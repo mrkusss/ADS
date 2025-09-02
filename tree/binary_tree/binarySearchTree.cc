@@ -1,3 +1,18 @@
+/*
+A Binary Search Tree is a type of binary tree with the following properties:
+
+    Each node has at most two children (left and right).
+
+    For each node:
+
+        -> The left child contains only values smaller than the parent.
+
+        -> The right child contains only values greater than the parent.
+
+    No duplicates (in standard BST).
+
+This structure allows fast search, insertion, and deletion in average O(log n) time (but can degrade to O(n) if the tree becomes unbalanced).
+*/
 #include <iostream>
 #include <vector>
 

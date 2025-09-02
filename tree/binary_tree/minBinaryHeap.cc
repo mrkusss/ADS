@@ -1,3 +1,15 @@
+/*
+A Min Binary Heap is a complete binary tree that satisfies the heap property:
+    -> Heap property (MinHeap): Every parent node is less than or equal to its children.
+    -> Complete binary tree: All levels are fully filled except possibly the last, which is filled from left to right.
+    -> Here, the smallest element (1) is at the root.
+    -> Each parent node is smaller than its children.
+
+Operations on a MinHeap
+    -> Insert: Add a new element and "heapify up" to maintain the heap property.
+    -> Extract Min: Remove the root (minimum element) and "heapify down" to maintain the heap property.
+    -> Peek Min: Retrieve the smallest element (root) without removing it.
+*/
 #include <iostream>
 #include <vector>
 #include <string>

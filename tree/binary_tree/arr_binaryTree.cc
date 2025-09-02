@@ -1,3 +1,9 @@
+/*
+This is an implementation of a binary tree using an array (vector) rather than nodes with pointers.
+This is often called a heap-like representation, commonly used for complete binary trees.
+    -> Instead of creating separate node objects, the tree is stored in a vector (arr).
+    -> The parent-child relationships are determined mathematically using indices.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
