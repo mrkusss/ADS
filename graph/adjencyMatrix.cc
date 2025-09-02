@@ -1,3 +1,8 @@
+/*
+        An adjacency matrix is a 2D array representation of a graph where matrix[i][j] 
+        indicates the presence (and possibly weight) of an edge between nodes i and j.
+It’s useful for dense graphs and allows O(1) edge lookups, but uses more memory for sparse graphs.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

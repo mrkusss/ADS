@@ -1,3 +1,8 @@
+/*
+Tabulation involves creating a table and filling it with solutions to smaller problems.
+         These solutions will help you solve bigger problems step by step.
+It's like climbing up a ladder, or solving simpler puzzles before conquering the bigger one.
+*/
 #include <iostream>
 #include <vector>
 

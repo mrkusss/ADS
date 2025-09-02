@@ -1,3 +1,8 @@
+/*
+Separate chaining resolves hash collisions by storing multiple elements that hash to the same index
+                in a linked list or another container at that index.
+            It’s commonly used in hash tables where collisions are frequent.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

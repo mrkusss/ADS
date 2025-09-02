@@ -1,3 +1,8 @@
+/*
+Linear probing -> A collision resolution method in hash tables where,
+                if a hash index is occupied,
+the algorithm checks the next sequential slots until an empty one is found.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

@@ -1,3 +1,9 @@
+/*
+               KMP (Knuth-Morris-Pratt) algorithm is an efficient string-matching algorithm
+                 that searches for a pattern in a text by avoiding redundant comparisons.
+ It uses a prefix table (also called the LPS array) to determine how much to shift the pattern when a mismatch occurs.
+        KMP is widely used in text editors, search engines, and bioinformatics for fast pattern matching.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

@@ -1,3 +1,8 @@
+/*
+        Kruskal’s algorithm finds a minimum spanning tree (MST) of a weighted graph
+by sorting all edges by weight and adding them one by one, avoiding cycles using a union-find structure.
+        It’s used in network design, clustering, and connecting points with minimal cost.
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

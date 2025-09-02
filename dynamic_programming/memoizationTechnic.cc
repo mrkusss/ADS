@@ -1,3 +1,9 @@
+/*
+Memoization is an optimization technique used to speed up algorithms by storing the results
+    of expensive function calls and reusing them when the same inputs occur again
+
+                theres simple algorithm which uses memoization  
+*/
 #include <iostream>
 #include <vector>
 #include <utility>

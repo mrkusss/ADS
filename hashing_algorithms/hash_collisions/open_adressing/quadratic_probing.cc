@@ -1,3 +1,8 @@
+/*
+                Quadratic probing -> A collision resolution method in hash tables where,
+                                    if a hash index is occupied, 
+the algorithm checks slots at increasing quadratic intervals (e.g., 1², 2², 3²…) until an empty one is found.
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

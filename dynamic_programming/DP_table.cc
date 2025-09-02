@@ -1,3 +1,10 @@
+/*
+Dynamic Programming table is a data structure — usually a 1D or 2D array — 
+    used to store the results of subproblems in dynamic programming
+        so that they don’t have to be recomputed multiple times.
+
+        to show how it works I solved knapsack problem with dp table
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

@@ -1,3 +1,8 @@
+/*
+Prim’s algorithm also finds a minimum spanning tree, but it starts from a single node and grows the MST
+        by adding the smallest edge connecting a visited node to an unvisited node.
+     It’s commonly used in network routing, circuit design, and infrastructure planning.
+*/
 #include <iostream>
 #include <vector>
 #include <queue>

@@ -1,3 +1,7 @@
+/*
+A HashMap is a data structure that stores key-value pairs and uses a hash function to compute an index 
+for fast insertion, deletion, and lookup. It’s used in caching, dictionaries, and fast data retrieval.
+*/
 #include <iostream>
 #include <list>
 #include <string>
